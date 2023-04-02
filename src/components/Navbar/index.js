@@ -2,10 +2,9 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    // <nav class="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-    <nav className="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <nav className="px-2">
       <div className="">
-        <ul className="flex flex-col p-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <ul className="flex flex-col p-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
           <li>
             <a
               href="/"
