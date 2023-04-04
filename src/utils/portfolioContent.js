@@ -1,23 +1,26 @@
+import portfolioImageDND from "../assets/project-newdnd.png";
+import portfolioImageMovie from "../assets/project-moviemoodboard.png";
+
 const portfolioContent = [
   // Project 2
   {
     id: 1,
     title: "Group Project 2 (New DND)",
     date: "January 2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget. Felis bibendum ut tristique et egestas quis. Porta nibh venenatis cras sed felis eget velit aliquet. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae.",
+    description: "Dungeon crawler game, which is deployed on Heroku. Please note that the app requires you to create an account to play the game.",
     deployedUrl: "https://new-dnd7.herokuapp.com/",
     githubUrl: "https://github.com/deafboi6/newDND",
+    image: portfolioImageDND,
   },
   // Project 1
   {
     id: 2,
     title: "Group Project 1 (Movie Moodboard)",
     date: "November 2022",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget. Felis bibendum ut tristique et egestas quis. Porta nibh venenatis cras sed felis eget velit aliquet. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae.",
+    description: "Web app to search for Movies or TV shows based on genre, using the TMDB and OMDB APIs.",
     deployedUrl: "https://abbeydoyle.github.io/movie-moodboard/",
     githubUrl: "https://github.com/abbeydoyle/movie-moodboard",
+    image: portfolioImageMovie,
   },
   // PWA Text Editor
   {

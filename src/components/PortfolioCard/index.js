@@ -5,8 +5,9 @@ function PortfolioCard(props) {
     <div className="mx-auto max-w-2xl sm:py-6 lg:max-w-5xl lg:px-8">
       <div className="grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-1 lg:grid-cols-2">
         {props.portfolioContent.map((item) => (
-          <div className="max-w-xl rounded overflow-hidden" key={item.id}>
-            <div className="px-6 py-4 bg-[#303634] pb-2 border border-white">
+          <div className="max-w-xl rounded overflow-hidden border-2 border-white hover:border-[#49AB8C] bg-[#303634] hover:bg-[#434C49] md:max-w-lg" key={item.id}>
+            <img className="w-full" src={item.image} alt=""></img>
+            <div className="px-6 py-4 pb-2">
               <div className="font-bold text-xl mb-2">{item.title}</div>
               <p className="pb-2">{item.date}</p>
               <p className="pb-4">{item.description}</p>
