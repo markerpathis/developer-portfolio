@@ -4,11 +4,20 @@ import projectJATE from "../assets/project-jate.png";
 import projectCodeOnion from "../assets/project-codeonion.png";
 import projectNoteTaker from "../assets/project-notetaker.png";
 import projectScheduler from "../assets/project-scheduler.png";
+import projectQuizMaker from "../assets/project-quizmaker.png";
 
 const portfolioContent = [
+  // Project 3
+  {
+    title: "Group Project 3 (Quiz Maker)",
+    date: "March 2023",
+    description: "Create multi-question quizzes and assign them to other users.",
+    deployedUrl: "http://quizmaker-app.herokuapp.com/",
+    githubUrl: "https://github.com/TheBluWiz/quizmaker",
+    image: projectQuizMaker,
+  },
   // Project 2
   {
-    id: 1,
     title: "Group Project 2 (New DND)",
     date: "January 2023",
     description: "Dungeon crawler game, which is deployed on Heroku. Please note that the app requires you to create an account to play the game.",
@@ -18,7 +27,6 @@ const portfolioContent = [
   },
   // Project 1
   {
-    id: 2,
     title: "Group Project 1 (Movie Moodboard)",
     date: "November 2022",
     description: "Web app to search for Movies or TV shows based on genre, using the TMDB and OMDB APIs.",
@@ -28,7 +36,6 @@ const portfolioContent = [
   },
   // PWA Text Editor
   {
-    id: 3,
     title: "PWA: Text Editor",
     date: "February 2023",
     description: "Progressive web app text editor.",
@@ -38,7 +45,6 @@ const portfolioContent = [
   },
   // MVC Tech Blog
   {
-    id: 4,
     title: "MVC Tech Blog (Code Onion)",
     date: "January 2023",
     description:
@@ -49,7 +55,6 @@ const portfolioContent = [
   },
   // Express JS Note Taker
   {
-    id: 5,
     title: "Express JS Note Taker",
     date: "December 2022",
     description: "Web app that lets the user write notes and save them in a database. This application uses Express.js for the back end and retrieves the the saved data from a json file.",
@@ -59,7 +64,6 @@ const portfolioContent = [
   },
   // Work Day Scheduler
   {
-    id: 6,
     title: "Work Day Scheduler",
     date: "October 2022",
     description:

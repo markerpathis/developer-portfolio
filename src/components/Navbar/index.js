@@ -30,11 +30,11 @@ export default function Navbar() {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="/resume" className="block py-2 pl-3 pr-4 text-white rounded bg-transparent p-0 hover:text-[#49AB8C]">
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
