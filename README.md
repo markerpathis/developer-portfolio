@@ -10,14 +10,6 @@ Below is the link to the deployed web application:
 
 - https://markerpathis.github.io/developer-portfolio/
 
-Links to the deployed application and repo are included in the Usage section.
-
-## Usage
-
-Below are links to the deployed web application and the repository on GitHub:
-
-- https://markerpathis.github.io/react-portfolio/
-
 ## License
 
 This project is licensed under the terms of the MIT License. The license badge at the top of this README includes a link to the description of the license.
