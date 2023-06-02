@@ -5,8 +5,28 @@ import projectCodeOnion from "../assets/project-codeonion.png";
 import projectNoteTaker from "../assets/project-notetaker.png";
 import projectScheduler from "../assets/project-scheduler.png";
 import projectQuizMaker from "../assets/project-quizmaker.png";
+import projectEmployeeDirectory from "../assets/employee-directory.png";
+import projectNomDotCom from "../assets/nomdotcom-home.png";
 
 const portfolioContent = [
+  // Nom Dot Com
+  {
+    title: "Nom Dot Com",
+    date: "May 2023 (Ongoing)",
+    description: "This React app allows users to save, edit, and search for recipes",
+    deployedUrl: "https://nomdotcom.herokuapp.com/",
+    githubUrl: "https://github.com/markerpathis/nom-dot-com",
+    image: projectNomDotCom,
+  },
+  // Employeee Directory
+  {
+    title: "React Employee Directory",
+    date: "April 2023",
+    description: "This React app is a mock employee directory, which allows the user to view employee information, such as their contact details, dob, and photo.",
+    deployedUrl: "https://markerpathis.github.io/react-employee-directory/",
+    githubUrl: "https://github.com/markerpathis/react-employee-directory",
+    image: projectEmployeeDirectory,
+  },
   // Project 3
   {
     title: "Group Project 3 (Quiz Maker)",
