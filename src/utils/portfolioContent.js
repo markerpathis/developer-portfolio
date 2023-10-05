@@ -7,12 +7,22 @@ import projectScheduler from "../assets/project-scheduler.png";
 import projectQuizMaker from "../assets/project-quizmaker.png";
 import projectEmployeeDirectory from "../assets/employee-directory.png";
 import projectNomDotCom from "../assets/nomdotcom-home.png";
+import projectNhlApi from "../assets/project-nhlschedule.png";
 
 const portfolioContent = [
+  // NHL Api
+  {
+    title: "NHL Schedule",
+    date: "September 2023",
+    description: "This React app allows users to view the NHL game schedule and scores",
+    deployedUrl: "https://markerpathis.github.io/nhl-api/",
+    githubUrl: "https://github.com/markerpathis/nhl-api",
+    image: projectNhlApi,
+  },
   // Nom Dot Com
   {
     title: "Nom Dot Com",
-    date: "May 2023 (Ongoing)",
+    date: "May 2023",
     description: "This React app allows users to save, edit, and search for recipes",
     deployedUrl: "https://nomdotcom.herokuapp.com/",
     githubUrl: "https://github.com/markerpathis/nom-dot-com",
